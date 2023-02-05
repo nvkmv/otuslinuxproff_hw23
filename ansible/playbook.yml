@@ -1,0 +1,6 @@
+---
+- name: istall exporters
+  hosts: all
+  become: true
+  roles:
+    - exporters
